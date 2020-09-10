@@ -22,13 +22,6 @@ To serve in the browser  - Runs webpack-dev-server
 $ npm start
 ```
 
-### Build
-Compile and build
-
-```sh
-$ npm run build
-```
-
 ## More Info
 
 ### Author
