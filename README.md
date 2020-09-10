@@ -34,7 +34,7 @@ $ npm run build
 ### Author
 
 Ahmed Shaikh
-[Ahmed Shaikh](https://github.com/N2SPARTAN)
+[AhmiCodes](http://www.traversymedia.com)
 
 ### License
 
