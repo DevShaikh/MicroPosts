@@ -9,7 +9,7 @@ $ npm install
 ```
 
 ### Run API'S
-Run this before use this app
+Run json-server before use this app
 
 ```sh
 $ npm run json:server
