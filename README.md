@@ -9,6 +9,13 @@ $ npm install
 ```
 
 ### Serve
+Run this before use this app
+
+```sh
+$ npm run json:server
+```
+
+### Serve
 To serve in the browser  - Runs webpack-dev-server
 
 ```sh
