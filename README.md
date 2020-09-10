@@ -27,7 +27,7 @@ $ npm start
 ### Author
 
 Ahmed Shaikh
-[AhmiCodes](https://github.com/N2SPARTAN)
+[N2SPARTAN](https://github.com/N2SPARTAN)
 
 ### License
 
