@@ -34,7 +34,7 @@ $ npm run build
 ### Author
 
 Brad Traversy
-[Traversy Media](http://www.traversymedia.com)
+[Ahmed Shaikh](https://github.com/N2SPARTAN)
 
 ### License
 
