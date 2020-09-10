@@ -33,7 +33,7 @@ $ npm run build
 
 ### Author
 
-Brad Traversy
+Ahmed Shaikh
 [Ahmed Shaikh](https://github.com/N2SPARTAN)
 
 ### License
