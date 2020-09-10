@@ -8,7 +8,7 @@ Install the dependencies
 $ npm install
 ```
 
-### Serve
+### Run API'S
 Run this before use this app
 
 ```sh
