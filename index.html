@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.css">
+  <title>MicroPosts</title>
+</head>
+<style>
+  #post-desc {
+    min-width: 100%;
+    min-height: 60px;
+    max-height: 250px;
+  }
+  /* #post-form .form-control:focus {
+    border-color: #7952b3;
+    box-shadow: 0 0 0 3px rgba(121,82,179,.25);
+  } */
+</style>
+<body>
+  
+  <div class="navbar navbar-dark bg-info mb-3">
+    <nav class="container">
+      <span class="navbar-brand mb-0 h1">MicroPosts</span>
+    </nav>
+  </div>
+
+
+  <div class="container">
+    <div id="wrapper">
+      <div class="card mb-3">
+        <div class="card-header">
+          Add new post
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Say somehting!</h3>
+          <p class="card-text">What's on your mind?</p>
+          <form id="post-form">
+            <div class="form-group">
+              <label for="post-title">Add Title</label>
+              <input type="text" id="post-title" class="form-control" placeholder="Add title here!" minlength="2" autocomplete="off" required>
+            </div>
+            <div class="form-group">
+              <label for="post-desc">Add Description</label>
+              <textarea id="post-desc" class="form-control" placeholder="Add description here!" minlength="2" autocomplete="off" required></textarea>
+            </div>
+            <input type="hidden" id="post-id" value="">
+            <input type="button" id="post-submit" class="btn btn-info btn-block" value="Submit post!">
+          </form>
+        </div>
+      </div>
+    </div>
+    <div id="posts"></div>
+  </div>
+  
+  <footer class="footer-copyright text-center mt-5 py-3 border">
+    © 2020 Copyright:
+    <a href="https://github.com/N2SPARTAN" target="_blank"> Ahmed Shaikh</a>
+  </footer>
+
+  <script src="js/Jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/all.js"></script>
+  <script src="build/app.bundle.js"></script>
+</body>
+</html>
